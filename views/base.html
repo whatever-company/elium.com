@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
+<link rel="stylesheet" href="{{g.static('/static/css/main.min.css').url.path}}">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+<title>{{_(doc.title)}} – {{_(podspec.title)}}</title>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><a href="{{g.url('/content/pages/index.html', locale=doc.locale).path}}">Product</a></div>
+      <nav>
+        <ul>
+          {% for doc in g.docs('pages', locale=doc.locale) %}
+            {% if not doc.is_hidden %}
+              <li><a href="{{doc.url.path}}">{{_(doc.titles('nav'))}}</a>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+      {% block main %}
+      {{doc.html|render|safe}}
+      {% endblock %}
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">{{_('Home')}}</a>
+          <li><a href="#">{{_('Privacy')}}</a>
+        </ul>
+      </nav>
+      <select onchange="window.location.href = this.value" class="language">
+        {% for locale in doc.locales %}
+        <option
+          {% if doc.locale == locale %} selected{% endif %}
+          value="{{g.doc(doc.pod_path, locale=locale).url.path}}">
+            {{locale.get_display_name(locale)}}
+        {% endfor %}
+      </select>
+    </footer>
+  </div>

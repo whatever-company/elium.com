@@ -1,0 +1,37 @@
+---
+$title: Phone
+$order: 0
+
+sections:
+  hero:
+    title: foo
+    text: bar
+    cta:
+      title: foo
+      url: bar
+---
+{% set sections = doc.sections %}
+
+<section class="intro intro-alt">
+  <div class="content">
+    <h2>{{_(sections.hero.title)}}</h2>
+    <p>{{_(sections.hero.text)}}
+    <p class="btn"><a href="{{sections.hero.cta.url}}">{{_(sections.hero.cta.title)}}</a>
+  </div>
+</section>
+
+<section class="main">
+  <div class="col">
+    <p>Text.
+  </div>
+  <div class="col bg bg-dude col-alt">
+  </div>
+</section>
+
+<section class="main">
+  <div class="col col-alt bg bg-field">
+  </div>
+  <div class="col">
+    <p>Text.
+  </div>
+</section>

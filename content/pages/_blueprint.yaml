@@ -1,0 +1,6 @@
+title: Pages
+view: /views/base.html
+path: /{base}/
+
+localization:
+  path: /{locale}/{base}/

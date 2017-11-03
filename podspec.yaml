@@ -1,0 +1,27 @@
+grow_version: ">=0.0.30"
+project: growthemes/product
+
+title@: Product
+description@: One company, three products.
+
+static_dirs:
+  - static_dir: /static/
+    serve_at: /static/
+
+localization:
+  default_locale: en
+  locales:
+  - de
+  - en
+  - ja
+  - zh
+
+preprocessors:
+- kind: sass
+  sass_dir: /source/sass/
+  out_dir: /static/css/
+
+deployments:
+  sandbox:
+    destination: gcs
+    bucket: sandbox.growlaunches.com

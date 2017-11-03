@@ -1,0 +1,40 @@
+msgid ""
+"<p>Ship of the imagination, science cosmic fugue cosmos globular star cluster"
+" rich in mystery, hydrogen atoms the only home we've ever known Flatland, "
+"another world. Sea of Tranquility Rig Veda!\n"
+"<p>Dispassionate extraterrestrial observer two ghostly white figures in "
+"coveralls and helmets are soflty dancing star stuff harvesting star light the"
+" carbon in our apple pies.\n"
+msgstr ""
+
+msgid ""
+"<p>The sky calls to us are creatures of the cosmos! Of brilliant syntheses "
+"star stuff harvesting star light. Apollonius of Perga Cambrian explosion "
+"great turbulent clouds. Bits of moving fluff, something incredible is waiting"
+" to be known laws of physics prime number across the centuries\n"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Lorem ipsum dolor."
+msgstr ""
+
+msgid "One company, three products."
+msgstr ""
+
+msgid "Privacy"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "The new products from company."
+msgstr ""
+
+msgid "Watch a video"
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+

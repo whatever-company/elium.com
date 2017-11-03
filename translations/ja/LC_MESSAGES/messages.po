@@ -1,0 +1,62 @@
+# Japanese translations for PROJECT.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-06-13 13:31-0700\n"
+"PO-Revision-Date: 2014-06-13 13:13-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+msgid ""
+"<p>Ship of the imagination, science cosmic fugue cosmos globular star cluster"
+" rich in mystery, hydrogen atoms the only home we've ever known Flatland, "
+"another world. Sea of Tranquility Rig Veda!\n"
+"<p>Dispassionate extraterrestrial observer two ghostly white figures in "
+"coveralls and helmets are soflty dancing star stuff harvesting star light the"
+" carbon in our apple pies.\n"
+msgstr ""
+"謎が豊富な想像力、科学宇宙フーガコスモス球状星団の<P>船は、水素は私たちが今までフラットランド、別の世界を知っていた唯一の家を原子。静寂のリグヴェーダの海！"
+"\n"
+"<P>カバーオールやヘルメットでの冷静な地球外の観察者2幽霊の白い数字は、我々のアップルパイの炭素sofltyダンススタースタッフ収穫のスターライトです。"
+
+msgid ""
+"<p>The sky calls to us are creatures of the cosmos! Of brilliant syntheses "
+"star stuff harvesting star light. Apollonius of Perga Cambrian explosion "
+"great turbulent clouds. Bits of moving fluff, something incredible is waiting"
+" to be known laws of physics prime number across the centuries\n"
+msgstr "空<P>たちに呼び出し宇宙の生き物です！華麗な合成スタースタッフ収穫のスターライトの。美味なものカンブリア爆発大きな乱雲のアポロニウス。綿毛を移動するビット、信じられないほどの何かが何世紀にも渡って、物理学の素数の法則を知られるのを待っている"
+
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Lorem ipsum dolor."
+msgstr "Loremのイプサムの嘆き。"
+
+msgid "One company, three products."
+msgstr "一つの会社、3つの製品。"
+
+msgid "Privacy"
+msgstr "プライバシー"
+
+msgid "Product"
+msgstr "製品"
+
+msgid "The new products from company."
+msgstr "会社からの新製品。"
+
+msgid "Watch a video"
+msgstr "ビデオを見る"
+
+msgid "Welcome"
+msgstr "歓迎"
+
