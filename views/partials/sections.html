@@ -1,0 +1,28 @@
+{% set sections = partial.sections %}
+
+<section class="intro">
+  <div class="content">
+    <h2>{{_(sections.hero.title)}}</h2>
+    <p>{{_(sections.hero.text)}}
+    <p class="btn"><a href="{{sections.hero.cta.url}}">{{_(sections.hero.cta.title)}}</a>
+  </div>
+</section>
+
+<section class="main">
+  <div class="col">
+    {{_(sections.first.text)}}
+  </div>
+  <div class="col col-alt bg bg-wall">
+  </div>
+</section>
+
+<section class="main">
+  <div class="col col-alt bg bg-field">
+  </div>
+  <div class="col">
+    {{_(sections.second.text)}}
+  </div>
+</section>
+
+<section class="main bg bg-map">
+</section>

@@ -19,8 +19,15 @@
       </nav>
     </header>
       {% block main %}
-      {{doc.html|render|safe}}
-      {% endblock %}
+        {% if doc.partials %}
+          {% for partial in doc.partials %}
+            {% if not partial.partial %}{% continue %}{% endif %}
+            {% include partial.partial with context %}
+          {% endfor %}
+        {% else %}
+          {{doc.html|safe}}
+        {% endif %}
+      {% endblock %}}
     <footer>
       <nav>
         <ul>
