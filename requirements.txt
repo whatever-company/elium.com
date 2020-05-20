@@ -20,7 +20,7 @@ GoogleAppEngineCloudStorageClient==1.9.22.1
 goslate==1.5.1
 grow==0.3.11
 html2text==2016.9.19
-httplib2==0.10.3
+httplib2==0.18.0
 idna==2.6
 Jinja2==2.9.6
 keyring==8.7
