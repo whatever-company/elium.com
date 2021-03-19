@@ -22,7 +22,7 @@ grow==0.3.11
 html2text==2016.9.19
 httplib2==0.10.3
 idna==2.6
-Jinja2==2.9.6
+Jinja2==2.11.3
 keyring==8.7
 keyrings.alt==2.2
 libsass==0.13.1
